@@ -1,0 +1,15 @@
+{
+  "name": "구매탄시장 AI 마법의 족보",
+  "short_name": "구매탄AI",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F7FFF7",
+  "theme_color": "#FF6B6B",
+  "icons": [
+    {
+      "src": "assets/hero.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

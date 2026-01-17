@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구매탄시장 AI 마법의 족보</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="bounce-in">🧞‍♂️ 사장님을 위한<br>AI 마법의 족보</h1>
+            <p>복사해서 붙여넣기만 하세요! 순식간에 홍보 전문가가 됩니다.</p>
+            <div class="tagline">#구매탄시장 #MZ세대_저격 #매출상승</div>
+        </div>
+    </header>
+
+    <!-- Controls Section -->
+    <section class="controls sticky">
+        <div class="container control-flex">
+            <!-- Search -->
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="searchInput" placeholder="검색어 입력 (예: 비, 주말, 메뉴)">
+            </div>
+
+            <!-- Magic Toggle -->
+            <div class="magic-toggle-wrapper">
+                <span class="toggle-label">기본 모드</span>
+                <label class="switch">
+                    <input type="checkbox" id="magicToggle">
+                    <span class="slider round"></span>
+                </label>
+                <span class="toggle-label magic-text">✨ MZ 마법 모드</span>
+            </div>
+        </div>
+        
+        <!-- Categories -->
+        <div class="container">
+            <nav class="category-nav" id="categoryNav">
+                <button class="cat-btn active" data-cat="all">전체</button>
+                <!-- JS will populate categories here -->
+            </nav>
+        </div>
+    </section>
+
+    <!-- Prompts Grid -->
+    <main class="container">
+        <div class="prompts-grid" id="promptsGrid">
+            <!-- Cards will be injected via JS -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>만든이: AI 앰배서더 (구매탄시장 상인회)</p>
+            <p class="guide-text">사용법: 1. 마음에 드는 문구를 '복사'하세요. 2. 챗GPT나 뤼튼 앱에 '붙여넣기' 하세요. 3. [ ] 부분만 바꿔서 쓰세요.</p>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast hidden">복사 완료! 📋</div>
+
+    <!-- Data & Logic -->
+    <script src="prompts.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
