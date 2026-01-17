@@ -529,35 +529,35 @@ const promptData = [
     "category": "🎵 챕터 5. [멀티미디어] 작곡 & 영상 기획 (15개)",
     "subcategory": "🎼 Suno AI (음악 작곡) 프롬프트",
     "title": "신나는 트로트 (가게 로고송)",
-    "content": ""
+    "content": "- **Style**: Upbeat Trot, exciting, Korean traditional synth, rhythmic percussion.\n- **Lyrics**: (주제: 구매탄시장 304호, 반찬 맛집, 덤 많이 줌)"
   },
   {
     "id": 77,
     "category": "🎵 챕터 5. [멀티미디어] 작곡 & 영상 기획 (15개)",
     "subcategory": "🎼 Suno AI (음악 작곡) 프롬프트",
     "title": "감성적인 어쿠스틱 팝 (가게 테마송)",
-    "content": ""
+    "content": "- **Style**: Acoustic guitar, indie pop, warm, calm female vocal.\n- **Lyrics**: (주제: 엄마의 손맛, 퇴근길 위로, 따뜻한 밥상)"
   },
   {
     "id": 78,
     "category": "🎵 챕터 5. [멀티미디어] 작곡 & 영상 기획 (15개)",
     "subcategory": "🎼 Suno AI (음악 작곡) 프롬프트",
     "title": "활기찬 펑크 (축제용)",
-    "content": ""
+    "content": "- **Style**: Funk, Brass section, groory bass, cheerful energy.\n- **Lyrics**: (주제: 오늘만 세일, 다 같이 놀자, 야시장 파티)"
   },
   {
     "id": 79,
     "category": "🎵 챕터 5. [멀티미디어] 작곡 & 영상 기획 (15개)",
     "subcategory": "🎼 Suno AI (음악 작곡) 프롬프트",
     "title": "CM송 (짧은 30초)",
-    "content": ""
+    "content": "- **Style**: Catchy Jingle, bright, fast tempo, advertising music.\n- **Lyrics**: (주제: 전화번호 반복, 배달 가능 강조)"
   },
   {
     "id": 80,
     "category": "🎵 챕터 5. [멀티미디어] 작곡 & 영상 기획 (15개)",
     "subcategory": "🎼 Suno AI (음악 작곡) 프롬프트",
     "title": "힙합/랩 (청년몰 홍보)",
-    "content": ""
+    "content": "- **Style**: 90s Boom Bap beat, cool rap flow, male vocal.\n- **Lyrics**: (주제: 젋음의 거리, 힙한 시장, 맛있는 거 다 있음)"
   },
   {
     "id": 81,
